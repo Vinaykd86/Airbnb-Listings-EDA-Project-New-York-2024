@@ -4,9 +4,9 @@ Project Overview
 
 This project performs Exploratory Data Analysis (EDA) on New York Airbnb data to uncover trends and patterns in rental listings. We use libraries like Pandas, Numpy, Matplotlib, Seabornfor cleaning, visualization, and analysis.
 
-Objective
 
-The goal of this project is to:
+Objective:
+
 
 1.Analyze room types, prices, and availability across different neighborhoods.
 
@@ -16,7 +16,8 @@ The goal of this project is to:
 
 4.Provide recommendations for guests and hosts based on insights.
 
-Dataset
+
+Dataset:
 
 The dataset contains 20,765 entries and 22 features, including:
 
@@ -39,7 +40,8 @@ reviews_per_month: Average monthly reviews for the listing
 availability_365: Number of available days in the year
 
 
-Steps and Workflow
+
+Steps and Workflow:
 
 1. Data Cleaning:
    
@@ -81,6 +83,8 @@ Analyzed hosts with multiple listings using boxplots to identify key contributor
 
 Used pair plots to show relationships between number of reviews, price, and availability.
 
+
+
 3. Data Visualization:
    
 Pairplot: To see correlations among price, availability, and number of reviews.
@@ -90,6 +94,7 @@ Heatmap: Showing correlations among numerical features.
 Histograms and Boxplots: To detect outliers in price.
 
 Bar Charts: Displaying room types and neighborhood group distributions.
+
 
 Key Findings and Insights:
 
@@ -116,6 +121,7 @@ Listings with high availability tend to have lower prices and more reviews, like
 Some hosts manage multiple listings, indicating a trend toward professional hosting.
 
 
+
 Recommendations:
 
 1.For Guests:
@@ -129,6 +135,7 @@ Private rooms in Brooklyn offer affordable stays compared to Manhattan.
 Improve availability and review response rates to attract more bookings.
 
 Manage pricing effectively to compete within the borough's market.
+
 
 Conclusion:
 
